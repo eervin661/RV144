@@ -57,16 +57,16 @@ In my initial analization of this information I noticed that I have numerical da
 ```{r}
 barchartGC(results,type = "percent")
 ```
-
-### Numerical Results
 The first group of people that did not have aids and the people who had the pacebo are equal in value. there is no difference. In the second group there is an obvios difference in the amount of people who recieved the vaccine verses the people who did not recieve the vaccine. this indicates that the vaccine was helpful in reducing the number of people who contracted aids.
+### Numerical Results
+
 <!--Display numerical evidence as to the effectiveness of the vaccine with explanations !--> 
 
 ```{r}
 colPerc(results)
 rowPerc(results)
 ```
-
+The row percents shows among the people with aids 40% had the vaccine and 60% had the placebo. This is a striking difference. And this chart is much easier to read. 
 
 
 
@@ -78,6 +78,7 @@ rowPerc(results)
 chisqtestGC(results, graph = TRUE)
 ```
 
+  I noticed that the p value is less than 0.05% which means that I reject the null hypothesis. this means that the vaccine had an effect on weather one contracted aids or not.
 
 ## Conclusions
 
