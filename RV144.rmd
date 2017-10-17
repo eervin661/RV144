@@ -82,4 +82,5 @@ chisqtestGC(results, graph = TRUE)
 
 ## Conclusions
 
+It is concluded that the vaccine did have an effect,decreasing the number of people who contracted the aids virus.
 <Summarise your results as to the effectiveness of the vaccine with explanations that could be understood by your mom>
